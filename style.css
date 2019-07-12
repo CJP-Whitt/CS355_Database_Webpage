@@ -1,0 +1,233 @@
+*
+{
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+}
+
+body {
+	background-color: #64acf4;
+	font-family: "Verdana";
+}
+
+textarea#textBox{
+	color: black;
+
+}
+.headerOne 
+{
+	text-align: center; 
+	color: white;
+	font-size: 60px;
+}
+
+#ssuL
+{
+	padding-top: 2px;
+	padding-left: 5px;
+	border-radius: 12px;
+	float:left;
+	width:165px;
+	height:65px;
+}
+
+#ssuR
+{
+	padding-top: 3px;
+	padding-right: 5px;
+	border-radius: 12px;
+	float:right;
+	width: 165px;
+	height:65px;
+}
+
+.pOne
+{
+	text-align: center;
+	color: white;
+}
+
+.pTwo
+{
+	color: #ff3300;
+
+}
+
+.pThree
+{
+	color: 	black;
+}
+.pFour{
+	text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 2px rgba(206,89,55,0);
+	color: #33E00E;
+	text-align: center;
+}
+
+/*#wrapper {
+    width: 1920px;
+    overflow: hidden; 
+    color:white;
+    height: 1080px;
+}
+*/
+
+.columns{
+	column-count: 3;
+	column-gap: 0em;
+
+}
+.boxOne {
+	width: 20%;
+	height: 1080px;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	color:white;
+	overflow: scroll;
+}
+
+.boxTwo {
+	width: 25%;
+	height: 1080px;
+	float: left;
+	padding-left: 1em;
+	padding-right: 0em;
+	padding-top: 1em;
+	color:white;
+	overflow: hidden;
+}
+.boxThree {
+	width: 50%;
+	height: 1080px;
+	float: left;
+	padding-top: 1em;
+	padding-left: 0em;
+	padding-right: 0em;
+	color:white;
+	overflow: scroll;
+}
+input#submit{
+	width:5em;
+	height: 2em;
+}
+
+#results{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 800px;
+	overflow-y: scroll;
+	display: block;
+}
+#results th, td{
+	padding:3px;
+	text-align: left;
+}
+#flight {
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#flight th, td{
+	padding:3px;
+	text-align: left;
+}
+#distbyid {
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#distbyid th, td{
+	padding:3px;
+	text-align: left;
+}
+#origin {
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#origin th, td{
+	padding:3px;
+	text-align: left;
+}
+#dest {
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#dest th, td{
+	padding:3px;
+	text-align: left;
+}
+#depart{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#depart th, td{
+	padding:3px;
+	text-align: left;
+}
+#arrive{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#arrive th, td{
+	padding:3px;
+	text-align: left;
+}
+#cancel{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#cancel th, td{
+	padding:3px;
+	text-align: left;
+}
+#taxiout{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#taxiout th, td{
+	padding:3px;
+	text-align: left;
+}
+#taxiin{
+	border-collapse: collapse;
+	border: 2px solid black;
+	font-size: 10px;
+	height: 100px;
+	overflow-y: scroll;
+	display: block;
+}
+#taxiin th, td{
+	padding:3px;
+	text-align: left;
+}
