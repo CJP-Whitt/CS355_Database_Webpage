@@ -1,5 +1,5 @@
-# CS355-Project1
-Project on making a website accessible database based on airport statistics.
+# CS355 Database Accessible Webpage
+Project on making a website accessible database based on airport statistics. This project takes a 100 row sample from a huge airport statitstics file and lets you access and query it through a webpage.
 
 ## Link to finished webpage
 http://blue.cs.sonoma.edu/~cwhitt/airplaneDB/
