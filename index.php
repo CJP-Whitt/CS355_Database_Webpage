@@ -5443,8 +5443,8 @@
 
 
 					<?php
-
-						$dbconn = pg_connect("host=blue.cs.sonoma.edu dbname=group12db user=kmangrobang") or die('Could not connect: ' . pg_last_error());
+						//not real credentials, but general format for connection is as follows
+						$dbconn = pg_connect("host=SSH_URL dbname=GroupNumber user=UserName") or die('Could not connect: ' . pg_last_error());
 						$stat = pg_connection_status($dbconn);
 			 				 if ($stat === PGSQL_CONNECTION_OK) {
 			      				echo '<p class ="pFour"> ***Connection Status OK!***</p>';
