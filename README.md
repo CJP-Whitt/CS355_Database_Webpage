@@ -1,3 +1,5 @@
+# (Depreciated- Database has been removed after assignment was graded)
+
 # CS355 Database Accessible Webpage
 Project on making a website accessible database based on airport statistics. This project takes a 100 row sample from a huge airport statitstics file and lets you access and query it through a webpage.
 
